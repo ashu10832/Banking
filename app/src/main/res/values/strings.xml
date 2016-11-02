@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Banking</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Field validations -->
+    <string name="required_field">This is a required field</string>
+</resources>
