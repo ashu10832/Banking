@@ -9,17 +9,39 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
+    android:background="@color/background"
     tools:context="org.bom.india_hackaton.activities.SelectLanguage">
 
+    <TextView
+        android:textSize="30dp"
+        android:gravity="center"
+        android:text="Select Language"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView" />
 
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center_vertical"
+    android:layout_marginTop="200dp">
     <Button
         android:id="@+id/hindi_language"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/rounded_bg"
+        android:textColor="@color/colorAccent"
+        android:layout_marginBottom="5dp"
         android:text="हिन्दी"/>
     <Button
         android:id="@+id/english_language"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/rounded_bg"
+        android:textColor="@color/colorAccent"
         android:text="English"/>
+
+</LinearLayout>
 </LinearLayout>
