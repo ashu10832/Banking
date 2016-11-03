@@ -4,5 +4,5 @@
 
     <!-- Field validations -->
     <string name="required_field">This is a required field</string>
-    <string name="login_for_banking">Login For Banking</string>
+    <string name="login_for_banking">लॉग इन करें</string>
 </resources>

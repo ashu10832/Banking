@@ -12,6 +12,8 @@ import org.bom.india_hackaton.R;
 
 import rx.functions.Action1;
 
+import static android.icu.lang.UCharacter.GraphemeClusterBreak.L;
+
 public class SplashActivity extends Activity {
     private static final int SPLASH_TIME_OUT = 3000;
 
@@ -38,7 +40,7 @@ public class SplashActivity extends Activity {
             @Override
             public void run() {
                 App.getInstance().initializeClientContainer();
-                Intent i = new Intent(SplashActivity.this, LoginActivity.class);
+                Intent i = new Intent(SplashActivity.this, SelectLanguage.class);
                 startActivity(i);
                 finish();
             }

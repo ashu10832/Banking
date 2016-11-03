@@ -1,6 +1,8 @@
 package org.bom.india_hackaton;
 
 import android.app.Application;
+import android.content.res.Configuration;
+import android.content.res.Resources;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -13,6 +15,9 @@ import org.bom.android.container.SDKContainer;
 
 import java.lang.reflect.Type;
 import java.math.BigDecimal;
+import java.util.Locale;
+
+import static org.bom.india_hackaton.activities.base.BaseActivity.getLocale;
 
 public class App extends Application {
     private static App sInstance;
@@ -56,4 +61,13 @@ public class App extends Application {
         sdkContainer = new SDKContainer.Builder(this.getApplicationContext()).build();
         sdkContainer.initializeContainer();
     }
+
+    @Override
+    public void onConfigurationChanged(Configuration newConfig) {
+        super.onConfigurationChanged(newConfig);
+
+    }
+
+
+
 }

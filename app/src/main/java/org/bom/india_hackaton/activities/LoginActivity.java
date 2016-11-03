@@ -2,8 +2,11 @@ package org.bom.india_hackaton.activities;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.DisplayMetrics;
+import android.util.Log;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -14,6 +17,8 @@ import org.bom.india_hackaton.App;
 import org.bom.india_hackaton.R;
 import org.bom.india_hackaton.activities.base.BaseActivity;
 import org.bom.india_hackaton.utils.RxUtils;
+
+import java.util.Locale;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -31,11 +36,19 @@ public class LoginActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //Checks for language code in shared preferences
+        SharedPreferences sharedPreferences = getSharedPreferences("MyPrefs",this.MODE_PRIVATE);
+        String lang = sharedPreferences.getString("lang","en");
+        Resources res = this.getResources();
+        // Change locale settings in the app.
+        DisplayMetrics dm = res.getDisplayMetrics();
+        android.content.res.Configuration conf = res.getConfiguration();
+        conf.locale = new Locale(lang.toLowerCase());
+        res.updateConfiguration(conf, dm);
         setContentView(R.layout.activity_login);
         ButterKnife.bind(this);
 
         mLoginButton.setEnabled(false);
-
         initializeToolbar("DEMO App", false);
         loadOrRegisterBOMUserIfNotExists();
     }

@@ -59,7 +59,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
                 android:background="@drawable/rounded_bg"
-                android:text="Login for Banking"
+                android:text="@string/login_for_banking"
                 android:textColor="@color/background"
                 android:textStyle="bold" />
 

@@ -10,12 +10,12 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
-        android:name="org.bom.india_hackaton.App"
+        android:name=".App"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
         <activity
-            android:name="org.bom.india_hackaton.activities.SplashActivity"
+            android:name=".activities.SplashActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,14 +24,17 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="org.bom.india_hackaton.activities.LoginActivity"
+            android:name=".activities.LoginActivity"
             android:launchMode="singleTop" />
-        <activity android:name="org.bom.india_hackaton.activities.BankingHomeActivity" />
-        <activity android:name="org.bom.india_hackaton.activities.AccountInfoActivity" />
-        <activity android:name="org.bom.india_hackaton.activities.AccountListActivity" />
-        <activity android:name="org.bom.india_hackaton.activities.TransactionHistoryActivity" />
-        <activity android:name="org.bom.india_hackaton.activities.imt.ImtActivity" />
-        <activity android:name="org.bom.india_hackaton.activities.fundtransfer.FundTransferActivity" />
+        <activity android:name=".activities.BankingHomeActivity" />
+        <activity android:name=".activities.AccountInfoActivity" />
+        <activity android:name=".activities.AccountListActivity" />
+        <activity android:name=".activities.TransactionHistoryActivity" />
+        <activity android:name=".activities.imt.ImtActivity" />
+        <activity android:name=".activities.fundtransfer.FundTransferActivity" />
+        <activity android:name=".activities.SelectLanguage">
+
+        </activity>
     </application>
 
 </manifest>

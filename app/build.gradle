@@ -28,7 +28,7 @@ android {
 
     defaultConfig {
         applicationId "org.bom.india_hackaton"
-        minSdkVersion 15
+        minSdkVersion 17
         targetSdkVersion 24
         versionCode 1
         versionName "INDIA-HACKATON"
