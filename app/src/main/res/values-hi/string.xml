@@ -5,4 +5,22 @@
     <!-- Field validations -->
     <string name="required_field">This is a required field</string>
     <string name="login_for_banking">लॉग इन करें</string>
+    <string name="pin_number">पिन नम्बर</string>
+    <string name="account_number">खाता संख्या</string>
+    <string name="account_info">खाता जानकारी</string>
+    <string name="account_list">खाते की\n सूची</string>
+    <string name="transaction_history">लेनदेन का \nइतिहास</string>
+    <string name="fund_transfer">फंड ट्रांसफर</string>
+    <string name="instant_money_transfer">तत्काल धन \nहस्तांतरण</string>
+    <string name="logout">लोग आउट</string>
+    <string name="pin_account_no_required">अकाउंट नंबर और पिन की आवश्यकता है</string>
+    <string name="amount">राशि</string>
+    <string name="source_account">स्रोत खाता</string>
+    <string name="recipient_account_number">प्राप्तकर्ता खाता संख्या</string>
+    <string name="recipient_name">प्राप्तकर्ता का नाम</string>
+    <string name="recipient_bank">प्राप्तकर्ता बैंक</string>
+    <string name="otp">ओटीपी</string>
+    <string name="recipient_phone_no">प्राप्तकर्ता फोन नंबर</string>
+    <string name="imt_pin">आईएमटी पिन</string>
+    <string name="initiate_imt">पैसे भेजो</string>
 </resources>

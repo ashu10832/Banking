@@ -5,4 +5,22 @@
     <!-- Field validations -->
     <string name="required_field">This is a required field</string>
     <string name="login_for_banking">Login For Banking</string>
+    <string name="pin_number">Pin Number</string>
+    <string name="account_number">Account Number</string>
+    <string name="account_info">Account Info</string>
+    <string name="account_list">Account List</string>
+    <string name="transaction_history">Transaction History</string>
+    <string name="fund_transfer">Fund Transfer</string>
+    <string name="instant_money_transfer">Instant Money Transfer</string>
+    <string name="logout">Logout</string>
+    <string name="pin_account_no_required">Account number and pin is required!</string>
+    <string name="amount">Amount</string>
+    <string name="source_account">Source Account</string>
+    <string name="recipient_account_number">Recipient Account Number</string>
+    <string name="recipient_name">Recipient Name</string>
+    <string name="recipient_bank">Recipient Bank</string>
+    <string name="otp">OTP</string>
+    <string name="recipient_phone_no">Recipient Phone Number</string>
+    <string name="imt_pin">IMT Pin</string>
+    <string name="initiate_imt">Initiate IMT</string>
 </resources>

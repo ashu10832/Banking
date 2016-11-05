@@ -59,7 +59,7 @@ public class LoginActivity extends BaseActivity {
         String pin = mPinTextView.getText().toString();
 
         if (TextUtils.isEmpty(accountNumber) || TextUtils.isEmpty(pin)) {
-            Toast.makeText(this, "Account number and pin is required", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, getResources().getText(R.string.pin_account_no_required), Toast.LENGTH_SHORT).show();
             return;
         }
 

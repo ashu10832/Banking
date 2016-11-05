@@ -36,7 +36,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Amount"
+                        android:text="@string/amount"
                         android:textColor="@android:color/white" />
 
                     <Space android:layout_width="10dp" />
@@ -56,7 +56,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Source account"
+                        android:text="@string/source_account"
                         android:textColor="@android:color/white" />
 
                     <Space android:layout_width="10dp" />
@@ -74,7 +74,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Recipient account number"
+                        android:text="@string/recipient_account_number"
                         android:textColor="@android:color/white" />
 
                     <Space android:layout_width="10dp" />
@@ -86,7 +86,7 @@
                         android:layout_weight="1"
                         android:inputType="numberSigned"
                         android:maxLength="40"
-                        android:singleLine="true"
+                        android:maxLines="1"
                         android:textColor="@android:color/white" />
                 </TableRow>
 
@@ -95,7 +95,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Recipient name"
+                        android:text="@string/recipient_name"
                         android:textColor="@android:color/white" />
 
                     <Space android:layout_width="10dp" />
@@ -121,7 +121,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Recipient bank"
+                        android:text="@string/recipient_bank"
                         android:textColor="@android:color/white" />
 
                     <Space android:layout_width="10dp" />
@@ -138,7 +138,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="OTP"
+                        android:text="@string/otp"
                         android:textColor="@android:color/white" />
 
                     <Space android:layout_width="10dp" />
@@ -163,7 +163,7 @@
                 android:layout_marginBottom="10dp"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/rounded_bg"
-                android:text="Initiate Fund Transfer"
+                android:text="@string/initiate_imt"
                 android:textColor="@color/background"
                 android:textStyle="bold" />
 
